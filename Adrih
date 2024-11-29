@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Explorador Espacial</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/spaceship.png" alt="Nave Espacial">
+            <p>Você é um explorador espacial em busca de uma galáxia perdida. Seu computador de bordo identificou duas rotas possíveis para iniciar sua jornada. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">Rota Nebulosa</button>
+            <button class="btn-proximo" data-proximo="2">Cinturão de Asteroides</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você segue pela Rota Nebulosa e encontra um planeta misterioso. Deseja pousar ou continuar explorando?</p>
+            <button class="btn-proximo" data-proximo="3">Pousar no planeta</button>
+            <button class="btn-proximo" data-proximo="4">Continuar explorando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O Cinturão de Asteroides é perigoso, mas você encontra uma estação espacial abandonada. Deseja entrar?</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na estação</button>
+            <button class="btn-proximo" data-proximo="6">Seguir viagem
